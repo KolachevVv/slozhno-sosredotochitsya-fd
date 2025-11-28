@@ -25,8 +25,6 @@
 .header__text {
   background-color: var(--header-text-bg-color);
   color: var(--header-text-color);
-  font-weight: bold;
-  font-size: inherit;
   margin: var(--decoration-gap);
   font: inherit;
 }
@@ -68,7 +66,7 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin: auto var(--decoration-gap);
+  margin-top: var(--decoration-gap);
 }
 
 .decorated-zone::before {
@@ -324,7 +322,6 @@
   }
 
   .section__why {
-    display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
     'question_why answers_why';
@@ -332,13 +329,11 @@
   }
 
   .section__what {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 0px;
   }
 
   .section__how {
-    display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
     'question_how answers_how';
@@ -410,7 +405,6 @@
 
   .question__what {
     display: block;
-    width: 30%;
     grid-area: question_what;
   }
 

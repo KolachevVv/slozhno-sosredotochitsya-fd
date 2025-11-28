@@ -44,10 +44,10 @@
   }
 }
 
-.theme-light .rec__empty::before {
-  display: none;
+.theme-dark .rec__empty::before {
+  display: inline-block;
 }
 
-.theme-light .rec__empty::after {
-  display: none;
+.theme-dark .rec__empty::after {
+  display: inline-block;
 }

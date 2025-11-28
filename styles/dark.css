@@ -53,3 +53,10 @@
     display: inline-block;
   }
 }
+.theme-light .rec__empty::before {
+  display: none;
+}
+
+.theme-light .rec__empty::after {
+  display: none;
+}
