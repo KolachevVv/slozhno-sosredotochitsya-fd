@@ -21,6 +21,7 @@
   --background-image:  url("../images/cover-image-light.png");
   --deco-color: var(--almost-black);
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: var(--basic-pink);
@@ -42,9 +43,11 @@
     --deco-color: var(--almost-black);
   }
 }
+
 .theme-light .rec__empty::before {
   display: none;
 }
+
 .theme-light .rec__empty::after {
   display: none;
 }
