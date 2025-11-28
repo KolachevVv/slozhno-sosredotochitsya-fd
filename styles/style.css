@@ -403,6 +403,7 @@
   .header_text {
     margin-top: 20px;
   }
+  
   .header__theme-menu {
     height: 100%;
     display: flex;
@@ -410,6 +411,7 @@
     flex-direction: column;
     align-items: start;
   }
+
   .header__theme-menu-list {
     grid-auto-flow: column;
   }
