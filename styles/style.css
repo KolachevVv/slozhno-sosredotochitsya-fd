@@ -383,27 +383,41 @@
     bottom: 20px;
   }
 
-    .section_why {
+    .section__why {
       margin-top: 40px;
       gap: 10px;
   }
 
-  .question_why {
+    .answers__what {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-area: answers_what;
+    margin-top: 77px;
+  }
+
+  .question__why {
     margin-top: 20px;
   }
 
-  .answers_why {
+  .answers__why {
     margin-top: 0px;
   }
 
-  .section_what {
+  .section__what {
     margin-top: 50px;
   }
 
-  .header_text {
+  .question__what {
+    display: block;
+    width: 30%;
+    grid-area: question_what;
+  }
+
+  .header__text {
     margin-top: 20px;
   }
-  
+
   .header__theme-menu {
     height: 100%;
     display: flex;
@@ -414,5 +428,9 @@
 
   .header__theme-menu-list {
     grid-auto-flow: column;
+  }
+
+    .section_how {
+    gap: 10px;
   }
 }
