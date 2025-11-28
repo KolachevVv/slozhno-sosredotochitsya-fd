@@ -17,7 +17,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
-  position: relative; /* это для уголочков */
+  position: relative; /* это для углов */
   align-items: center;
   padding: var(--decoration-gap) 0;
 }
@@ -358,5 +358,59 @@
   .footer__title {
     justify-content: center;
     margin-top: 62px;
+  }
+}
+@media (width >= 1024px) {
+  .rec_empty {
+    --rec_empty_x_pos: 40px;
+  }
+
+  .header {
+    margin-block-end: 0;
+    --min-height: 768px;
+  }
+
+  .footer {
+    --min-height: 768px;
+    margin-top: 50px;
+  }
+
+  .huge__title {
+    margin-left: 0;
+  }
+
+  .decorated-zone::after {
+    bottom: 20px;
+  }
+
+    .section_why {
+      margin-top: 40px;
+      gap: 10px;
+  }
+
+  .question_why {
+    margin-top: 20px;
+  }
+
+  .answers_why {
+    margin-top: 0px;
+  }
+
+  .section_what {
+    margin-top: 50px;
+  }
+
+  .header_text {
+    margin-top: 20px;
+  }
+  .header__theme-menu {
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: start;
+  }
+  .header__theme-menu-list {
+    grid-auto-flow: column;
   }
 }
