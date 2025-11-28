@@ -260,7 +260,7 @@
   }
 
   .rec__empty {
-    --rec_empty_x_pos: 35px;
+    --rec-empty-x-pos: 35px;
   }
 
   .header {
@@ -357,7 +357,7 @@
 }
 @media (width >= 1024px) {
   .rec_empty {
-    --rec_empty_x_pos: 40px;
+    --rec-empty-x-pos: 40px;
   }
 
   .header {

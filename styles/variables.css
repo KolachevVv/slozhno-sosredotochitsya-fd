@@ -3,12 +3,12 @@
   и их переопределение под различные устройства
 */
 :root {
-  --basic-pink: #FF8DCB;
-  --title-pink: #FFC2E6;
-  --almost-white-bg: #FFF1F7;
-  --real-red: #ff0070;
-  --approximately-black: #000028;
-  --almost-black: #353430;
+  --light-title-shadow: #FF8DCB;
+  --light-title-font: #FFC2E6;
+  --light-background-color: #FFF1F7;
+  --shadow-font: #ff0070;
+  --negative-text: #000028;
+  --light-section-title: #353430;
   --regular-font-size: 18px;
   --regular-line-height: 100%;
   --regular-gap: 10px;
@@ -18,5 +18,5 @@
   --section-child-margin: 40px;
   --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
   --corner-thickness: 1px;
-  --rec_empty_x_pos: 30px;
+  --rec-empty-x-pos: 30px;
 }
